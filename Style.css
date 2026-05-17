@@ -1,0 +1,276 @@
+
+*{
+  margin: 0;
+  padding: 0;
+
+  outline: 1px solid red;
+
+}
+
+
+ body{
+  
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  
+}
+
+#mao{
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 30%;
+  z-index: 55;
+  
+}
+#sbuttons{
+  height: 30vh;
+  display: flex;
+  margin: auto;
+  z-index: 999999999999999;
+  
+}
+
+#campo{
+  
+  justify-content: center;
+  height: 20%;
+  display: flex;
+  
+  
+  
+  
+  z-index: 9999;
+}
+
+#Iacamp{
+  
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 15%;
+  z-index: 500;
+}
+
+#spellsandtraps{
+  
+  align-items: center;
+  justify-content: center;
+  height:50%;
+  display: flex;
+  z-index: 69;
+}
+
+#botspellsandtraps{
+  
+  height: 5%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  z-index: -1;
+}
+
+#receba{
+  display: flex;
+  
+  margin-left: 65%;
+  
+  word-wrap: break-word;
+  bottom: 50%;
+  
+  margin-bottom: auto;
+  
+  z-index: 99999999999999999999;
+  
+}
+
+
+
+#iahand{
+  
+height: 20%;
+  
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+}
+
+
+
+
+#playerpv{
+  height: 100%;
+  
+  display: flex;
+  
+  
+color: blue;
+}
+
+#botpv{
+  
+  
+  margin-left: auto;
+  height: 3%;
+  display: flex;
+  
+  z-index: 1000;
+  
+color: red;
+}
+
+
+
+#confirmeffect{
+  
+  height: 35%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+  
+}
+
+#Player_gy{
+  
+height:23%;
+margin-left: auto;
+  display: flex;
+  
+  
+  margin-bottom: auto;
+  
+  z-index: 9999;
+  background:  red;
+}
+#bot_gy{
+  
+height:10%;
+
+  display: flex;
+  margin-right: auto;
+  background-color: blue;
+  margin-bottom: auto;
+  
+  z-index: 9900;
+}
+
+
+#deck{
+  
+  height: 26%;
+  display: flex;
+  
+  margin-left: auto;
+  z-index: 1000;
+  
+
+  
+}
+
+#Bot_deck{
+  
+  
+  display: flex;
+  
+  
+  z-index: 1000;
+  
+color: red;
+}
+
+#turns{
+  
+}
+
+
+.cardset{
+transform: rotate(270deg);
+width: 12.5vh;
+height: 30vw;
+}
+
+.Iacardset{
+  transform: rotate(90deg);
+  width: 12.5vh;
+  height: 30vw;
+}
+
+.cavalo{
+  transform: rotate(180deg);
+  width: 20vw;
+  height: 18vh;
+  min-height: 115px;
+  min-width: 105px;
+}
+
+.redondo{
+  border-radius: 10px;
+  height: clamp(50px,7.5vh,1000px);
+  width: clamp(80px,15vw,800px
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(1rem,3.75vmin,10rem);
+  
+}
+
+.imgcards{
+  display: flex;
+  margin-top: auto;
+}
+
+.epstein{
+  width: 18vw;
+  height: 20vh;
+  min-height: 120px;
+  min-width: 110px;
+  max-height: 500px;
+  max-width: 450px;
+  
+}
+
+.epstein2{
+  width: 18vw;
+  height: 20vh;
+  min-height: 120px;
+  min-width: 110px;
+  max-height: 500px;
+  max-width: 450px;
+  transform: translateY(-20%);
+}
+
+.Pdiddy{
+  width: 18vw;
+  height: 19vh;
+  min-height: 115px;
+  min-width: 105px;
+}
+
+.carlinhos{
+  height: clamp(20px,5vmax,500px);
+  width: clamp(20px,7.5vmax,750px);
+  font-size: clamp(1rem,3.75vmin,10rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bigtext{
+  
+  font-size: clamp(2.5rem, 5vh, 20rem );
+
+  
+}
+
+.reset_bolado{
+  
+  width: clamp(5rem,20vw,10rem);
+  height: clamp(3rem,12vh,6rem);
+  
+}
